@@ -4,6 +4,7 @@ import Demographics from "./components/demographics/Demographics";
 import Provide from "./components/provide/Provide";
 import Features from "./components/features/Features";
 import Reach from "./components/reach/Reach";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Provide />
       <Features />
       <Reach />
+      <Footer />
     </div>
   );
 }
