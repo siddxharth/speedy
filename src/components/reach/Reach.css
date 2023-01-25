@@ -1,0 +1,49 @@
+.reach-section {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 80px;
+}
+
+.reach-title {
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 35px;
+	line-height: 45px;
+	color: #0B132A;
+}
+
+.reach-content {
+	width: 410px;
+}
+
+.reach-description {
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+	color: #4F5665;
+}
+
+.reach-button>button {
+	background: #F53838;
+	border-radius: 10px;
+	width: 250px;
+	height: 60px;
+	border: none;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 25px;
+	color: #FFFFFF;
+	box-shadow: 0px 14px 48px -13px #F53838;
+	cursor: pointer;
+}
+
+.reach-button>button:hover {
+	background: #F53838;
+	box-shadow: 0px 14px 48px -13px #4F5665;
+}
