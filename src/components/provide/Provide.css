@@ -1,0 +1,60 @@
+.provide-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 150px;
+	gap: 20px;
+}
+
+.provide-image>img {
+	max-width: 40vw;
+}
+
+.provide-content {
+	display: flex;
+	justify-content: left;
+	align-items: left;
+	flex-direction: column;
+	max-width: 40vw;
+}
+
+.provide-title {
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 35px;
+	line-height: 50px;
+	color: #0B132A;
+}
+
+.provide-sub {
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+	color: #4F5665;
+}
+
+.provide-list>ul {
+	list-style: none;
+	padding: 0;
+}
+
+.provide-list>ul>li {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 5px;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 30px;
+	color: #4F5665;
+}
+
+.provide-list>ul>li>img {
+	max-width: 20px;
+	max-height: 20px;
+}
