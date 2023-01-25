@@ -9,6 +9,7 @@ import Footer from "./components/footer/Footer";
 function App() {
   return (
     <div className="Speedy-App">
+      {alert('This webpage is only designed to be viewed on Desktop screens only. Viewing it on mobile devices may cause disruption.')}
       <Navbar />
       <Hero />
       <Demographics />
